@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="q1">What is Services?</string>
+
+    <string name="a1">Survices is an app that provides you with the home survices you need</string>
+
+    <string name="q2">How does Services work?</string>
+
+    <string name="a2">You proceed to the next page and choose the survice you need us to provide for you,a new page will open up and you can check which person suits you better</string>
+
+    <string name="rules">Read the rules to proceed</string>
+    <string name="rule1">1.Treat all workers and employees respectfully.</string>
+    <string name="rule2">2.	Racism is forbidden.</string>
+    <string name="rule3">3.	Respect the worker privacy.</string>
+    <string name="rule4">4. Provide the worker with shelter, food and medicine.</string>
+    <string name="rule5">5. Provide the worker with 8 sleeping hours and 2 break hours through the day.</string>
+    <string name="rule6">6. The worker has the freedom to choose his religion and beliefs.</string>
+    <string name="rule7">7.	Provide the worker with suitable clothes and uniform.</string>
+</resources>
+

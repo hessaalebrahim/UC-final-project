@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAC1C5C8"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="202dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="left"
+        android:text="Categories:"
+        android:textColor="#053F5C"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="37dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Choose the category that success your needs"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonnanny"
+        android:layout_width="201dp"
+        android:layout_height="173dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/nannypic" />
+
+    <Button
+        android:id="@+id/buttonmaid"
+        android:layout_width="225dp"
+        android:layout_height="218dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/maidpic" />
+
+    <Button
+        android:id="@+id/buttoncook"
+        android:layout_width="213dp"
+        android:layout_height="181dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="199dp"
+        android:background="@drawable/cookkk"
+        android:textColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/buttondriver"
+        android:layout_width="219dp"
+        android:layout_height="201dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="-3dp"
+        android:background="@drawable/driverpic" />
+
+    <TextView
+        android:id="@+id/textViewNanny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="124dp"
+        android:layout_toEndOf="@+id/buttonnanny"
+        android:text="NANNY"
+        android:textColor="#E090B9"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:text="HOUSE MAID"
+        android:textColor="#76B36A"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="551dp"
+        android:text="DRIVER"
+        android:textColor="#CFB771"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="403dp"
+        android:text="HOUSE COOK"
+        android:textColor="#75B8BD"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
